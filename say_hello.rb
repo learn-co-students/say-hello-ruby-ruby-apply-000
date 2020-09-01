@@ -1,5 +1,7 @@
-def say_hello
- puts "Hello Ruby Programmer!"
+def say_hello(name="Ruby Programmer")
+  if name = ""
+  puts "Hello Ruby Programmer!"
+  else
+  puts "Hello #{name}!"
+  end
 end
-
-say_hello ("Kent Beck")
